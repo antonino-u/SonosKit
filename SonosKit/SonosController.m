@@ -7,7 +7,7 @@
 //
 
 #import "SonosController.h"
-#import "XMLReader.h"
+@import XMLReader;
 
 @implementation SonosController {
   NSInteger _volumeLevel;
