@@ -7,8 +7,8 @@
 //
 
 #import "SonosDiscovery.h"
-#import "XMLReader.h"
 #import "SonosController.h"
+@import XMLReader;
 
 typedef void (^kFindControllersBlock)(NSArray *ipAddresses);
 
